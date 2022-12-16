@@ -1,0 +1,61 @@
+.section{
+  background-color: rgb(168, 117, 117);
+}
+.section1{
+  text-align: center;
+}
+.section1 > p{
+  font-size: 25px;
+  float: center;
+  padding:40px;
+}
+.section1 > h1{
+  font-size: 75px;
+}
+.links > a{
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+table,th, td {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    padding-bottom: 1px;
+    padding-top:1px;
+    background-color: rgb(116, 199, 110);
+  }
+
+body {
+    background-image: url("coin1.jpg");
+    }
+@media screen and (max-width : 720px) {
+  .links > a{
+    font-size: 23px;
+  }
+  .links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+    flex-wrap:wrap;
+  }
+  .section1 > p{
+    font-size: 17px;
+    border: 2px solid black;
+  }
+  .section1 > h1{
+    font-size: 25px;
+  }
+  table,th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    background-color: lightblue;
+  }
+  body {
+          background-color: lightblue;
+    }
+}
+ 
