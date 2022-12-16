@@ -1,2 +1,0 @@
-# inflationproject
-project
